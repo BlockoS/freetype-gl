@@ -107,7 +107,7 @@ IF (freetype-gl_BUILD_DEMOS)
 ENDIF (freetype-gl_BUILD_DEMOS)
 
 INSTALL(TARGETS freetype-gl 
-    ARCHIVE DESTINATION lib/freetype-gl/
-    LIBRARY DESTINATION lib/freetype-gl/
+    ARCHIVE DESTINATION lib/
+    LIBRARY DESTINATION lib/
     COMPONENT LIBRARY)
 INSTALL(FILES ${FREETYPE_GL_INCLUDE} DESTINATION include/freetype-gl/)
